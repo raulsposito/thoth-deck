@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Data from './data.js'
 import Card from './Card'
+import Data from './data'
 
 export default class Showcase extends Component {
 
@@ -9,11 +9,8 @@ export default class Showcase extends Component {
     // map over your Data array and return an array of the correct JSX
   };
 
-  render() {
-    return (
-      <div id="showcase">
-        {this.generateCards()}
-      </div>
-    )
-  }
+
+	render() {
+		return <div id="movie-showcase">{this.generateCards()}</div>;
+	}
 }
