@@ -16,6 +16,7 @@ export default class Card extends Component {
           <CardFront poster={posterMap[this.props.poster]} />
           <CardBack 
           title={this.props.title}
+          cover={this.props.cover}
           />
         </div>
       )
