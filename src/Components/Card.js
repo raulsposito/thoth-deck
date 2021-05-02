@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import CardFront from './CardFront.js';
 import CardBack from './CardBack.js';
-import TheFool from '../assets/the-fool-thoth-tarot.png'
-
-const posterMap = {
-    'the-fool-thoth-tarot': TheFool
-  }
 
 export default class Card extends Component {
 
@@ -13,10 +8,9 @@ export default class Card extends Component {
       return (
         <div className="card">
           {/* which component should receive which props? */}
-          <CardFront poster={posterMap[this.props.poster]} />
+          <CardFront cover={this.props.cover} />
           <CardBack 
           title={this.props.title}
-          cover={this.props.cover}
           />
         </div>
       )
@@ -26,5 +20,5 @@ export default class Card extends Component {
   // Don't forget your default props!
   Card.defaultProps = {
     title: "Unknown",
-    poster: 'default'
+    cover: 'default'
   };
