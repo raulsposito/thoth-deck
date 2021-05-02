@@ -7,10 +7,11 @@ export default class Card extends Component {
     render() {
       return (
         <div className="card">
-          {/* which component should receive which props? */}
-          <CardFront cover={this.props.cover} />
           <CardBack 
           title={this.props.title}
+          />
+          <CardFront 
+          cover={this.props.cover} 
           />
         </div>
       )

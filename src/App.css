@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.card-container {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.card {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
