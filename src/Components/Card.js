@@ -25,7 +25,5 @@ export default class Card extends Component {
   // Don't forget your default props!
   Card.defaultProps = {
     title: "Unknown",
-    IMDBRating: null,
-    genres: ['No Genre(s) Found'],
     poster: 'default'
   };
