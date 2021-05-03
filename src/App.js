@@ -1,11 +1,11 @@
 import './App.css';
-// import SearchPage from './Components/SearchPage.js';
 import Showcase from './Components/Showcase'
+import Header from './Components/Header'
 
 function App() {
   return (
     <div className="App">
-      {/* <SearchPage /> */}
+      <Header />
       <Showcase />
     </div>
   );
