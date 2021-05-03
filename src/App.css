@@ -24,24 +24,22 @@
   justify-content: center;
 }
 
-.front {
+/* .front {
   transition-duration:1s;
-}
+  backface-visibility: hidden;
+} */
 
-.front:hover {
+/* .front:hover {
   transform: rotateY(180deg);
   opacity: 0.2;
-}
+} */
 
 #back {
   display:flex;
+  flex-wrap: wrap;
   align-items:center;
   justify-content:center;
   position:relative;
-  bottom:0px;
-  left:0px;
-  width:100%;
-  height:25px;
   background:var(--transparency);
   text-align:center;
   font:bold 12px times, serif;
@@ -49,23 +47,12 @@
   font-variant:small-caps;
   letter-spacing:1px;
   transition-duration:1s;
-}
-
-#back span {
-  display:block;
-  width:90%;
-  padding:10px 0;
-  margin: 5px auto;
-  background: var(--border);
-  text-align:center;
-  font:bold 12px times, serif;
-  color:var(--text);
-  letter-spacing:1px;
-  font-variant:small-caps;
+  opacity: 0;
 }
 
 #back:hover {
   opacity: 1;
+  /* transform: rotateY(-180deg); */
 }
 
 .search {

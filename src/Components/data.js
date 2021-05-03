@@ -26,71 +26,88 @@ const data = [
     },
     {
         title: 'The Hierophant',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-hierophant-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-hierophant-thoth.png',
+        content: 'To search for the mysterious truth. Knowledge and understanding are the independent experiences of science and dogma religious.'
     },
     {
         title: 'The Lovers',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-lovers-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-lovers-thoth.png',
+        content: 'Consecration and unity of opposites. Recognition and free to decide from the bottom of the heart.'
     },
     {
         title: 'The Chariot',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-chariot-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-chariot-thoth.png',
+        content: 'The desire to conquer, the spirit of adventure, brave. The best thing can be achieved: Holy Grail.'
     },
     {
         title: 'The Adjustment',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-adjustment-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-adjustment-thoth.png',
+        content: '	Deep will, seeking harmony through mastery of reality. Responsible, self-awareness, objectivity.'
     },
     {
         title: 'The Hermit',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/hermit-thoth.jpg'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/hermit-thoth.jpg',
+        content: 'Living in seclusion, escaping the burdens, retreating to the ego, isolating oneself. Truth, knowledge, seeking the self.'
     },
     {
         title: 'The Fortune',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-fortune-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-fortune-thoth.png',
+        content: 'Develop and continuous decline (alternation, endless change, new beginning). Accept fate, understand the purpose of life, and the transformation of lower things on higher things.'
     },
     {
         title: 'The Lust',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-lust-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-lust-thoth.png',
+        content: 'Energy, passion, prestige. Joy in life, initiation, the transformation of sensuality (changing the nature of the animal through acceptance which is full of love).'
     },
     {
         title: 'The Hanged Man',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-hanged-man-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-hanged-man-thoth.png',
+        content: 'Sacrifice and devotion (accepting the arrangement of fate and seeking deep hidden meanings). Redemption, maturity, the search for wisdom, salvation focus.'
     },
     {
         title: 'The Death',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/thoth-tarot-death.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/thoth-tarot-death.png',
+        content: 'Die and be born, grow and die. The transformation. Make room for new things.'
     },
     {
         title: 'The Art',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-art-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-art-thoth.png',
+        content: 'Solve et coagula (dissolving and bonding): the reunion of what has disintegrated at a new level. Appropriate measurement (balance and harmony).'
     },
     {
         title: 'The Devil',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-devil-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-devil-thoth.png',
+        content: 'Dark magic, ritualized sexual activity, the transformation of the self through group rituals. Reverse: the Inquisition on behalf of God that burned the people (mostly women) who were supposed to be witches.'
     },
     {
         title: 'The Tower',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-tower-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-tower-thoth.png',
+        content: 'Destruction of shape, nullification, and variation of values. In fact, enlightenment in awareness is struck like a lightning stream and destroying lies and rigid thoughts.'
     },
     {
         title: 'The Start',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-star-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-star-thoth.png',
+        content: 'Introspection, see through the perfection of the Universe, innovate and regenerate.'
     },
     {
         title: 'The Moon',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-moon-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-moon-thoth.png',
+        content: 'Go down to the world below, the journey goes into the deep unconscious. The strange path goes into the depths of the soul, confronts the night, with fears, understand yourself most profoundly.'
     },
     {
         title: 'The Sun',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-sun-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-sun-thoth.png',
+        content: 'Strive for light, reconcile with the dark side and realize the deepest self. Exciting, accepting life, full of life, spacious, warm, fresh, confident.'
     },
     {
         title: 'The Aeon',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-aeon-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-aeon-thoth.png',
+        content: 'Recognize the great correlations, expanded perceptions and the liberation of previously hidden powers.'
     },
     {
         title: 'The Universe',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-universe-thoth.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/06/the-universe-thoth.png',
+        content: 'The unity of the universe (the symbiosis of Cupid and the spirituality). Solution for confinement, conclusions of karma (karma).'
     },
     {
         title: 'Ace of Wands',

@@ -7,7 +7,7 @@ export default class CardFront extends Component {
 				<img src={this.props.cover} className="front" alt="card cover"></img>
 
 				<div id="back">
-					<span>{this.props.content}</span>
+					<p>{this.props.content}</p>
 				</div>
 			</div>
 		);
