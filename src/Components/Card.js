@@ -6,12 +6,13 @@ export default class Card extends Component {
 
     render() {
       return (
-        <div className="card">
+        <div>
           <CardBack 
           title={this.props.title}
           />
           <CardFront 
           cover={this.props.cover} 
+          content={this.props.content}
           />
         </div>
       )

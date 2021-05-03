@@ -1,23 +1,28 @@
 const data = [
     {
         title: 'The Fool',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-fool-thoth-tarot.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-fool-thoth-tarot.png',
+        content: 'Curious, interested in experimentation, looking for a change.'
     },
     {
         title: 'The Magus',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-magus.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-magus.png',
+        content: 'Resolution, Self-made. Dynamic, the power of volition, full of energy.'
     },
     {
         title: 'The Priestess',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-pristess-thoh-tarot.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-pristess-thoh-tarot.png',
+        content: 'Longing for inner sources. Being guided, touched, becomes the original cause.'
     },
     {
         title: 'The Empress',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-empress-thoth-tarot.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-empress-thoth-tarot.png',
+        content: 'Devotion and the mother’s love (open and ready to receive).'
     },
     {
         title: 'The Emperor',
-        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-emperor-thoth-tarot.png'
+        cover: 'https://cdn-0.tarotx.net/wp-content/uploads/2019/05/the-emperor-thoth-tarot.png',
+        content: 'Domination (of the mind to nature). Justice and order.'
     },
     {
         title: 'The Hierophant',
