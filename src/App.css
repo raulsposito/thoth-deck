@@ -21,6 +21,14 @@
   justify-content: center;
 }
 
+.search {
+  width:"20rem"; 
+  background:"#F2F1F9"; 
+  border:"none"; 
+  border-radius:"5rem"; 
+  padding:"0.5rem"
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
