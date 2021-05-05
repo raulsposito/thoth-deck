@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card'
+// import CardContainer from './CardContainer';
 import Data from './data'
 
 class Showcase extends Component {
@@ -27,6 +28,9 @@ class Showcase extends Component {
       <div>
         <input className="search" type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder={"Search Card"}/>
         <br></br>
+
+        <h2>This is your search:</h2>
+        {/* <CardContainer title={this.dynamicSearch()} /> */}
 
         <div className="card-container">{this.generateCards()}</div>;
       </div>
