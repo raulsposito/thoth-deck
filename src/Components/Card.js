@@ -6,7 +6,7 @@ export default class Card extends Component {
 
     render() {
       return (
-        <>
+        <div>
           <CardBack
             title={this.props.title}
           />
@@ -14,7 +14,7 @@ export default class Card extends Component {
             cover={this.props.cover}
             content={this.props.content}
           />
-        </>
+        </div>
       )
     }
   }

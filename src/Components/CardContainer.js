@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Card from './Card'
 
-class CardContainer extends Component {
-    render() {
-        return (
-            <div>
-                {this.props.title.map(title => <Card title = {title}/>)}
-            </div>
+const CardContainer = ({ deck }) => {
+    return (
+        deck && (
+        <div>
+            { deck.map((d, idx) => <Card key={idx} title={d.title} cover={d.cover} />)}
+        </div>
         )
-    }
+    )
 }
 
 export default CardContainer
