@@ -1,38 +1,43 @@
 import React, { Component } from 'react';
 import Card from './Card'
 // import CardContainer from './CardContainer';
-import Data from './data'
+import data from './data'
 
 class Showcase extends Component {
 
   state = {
-    Data,
+    data,
     searchTerm: ''
   }
 
+  componentDidMount() {
+    this.generateCards()
+  }
+
   editSearchTerm = (e) => {
-    this.setState({searchTerm: e.target.value})
+    this.setState({ searchTerm: e.target.value})
   }
 
   dynamicSearch = () => {
-    return this.state.data.filter(data => data.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
+    return this.state.data.filter(d => d.title.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
   }
 
   generateCards = () => {
-    return Data.map((data, idx) => <Card key={idx} {...data} />);
+    return this.state.data.map((data, idx) => <Card key={idx} {...data} />);
   };
 
-
 	render() {
-		return (
+    // const { data, searchTerm } = this.state
+    console.log(this.state.searchTerm)
+    console.log('Search:', this.dynamicSearch())
+    return (
       <div>
-        <input className="search" type='text' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder={"Search Card"}/>
+        <input className="search" type='search' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder={"Search Card"}/>
         <br></br>
 
         <h2>This is your search:</h2>
-        {/* <CardContainer title={this.dynamicSearch()} /> */}
 
-        <div className="card-container">{this.generateCards()}</div>;
+        <div className="card-container">{this.state.deck}</div>
       </div>
     )
 	}

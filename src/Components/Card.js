@@ -6,19 +6,19 @@ export default class Card extends Component {
 
     render() {
       return (
-        <div>
-          <CardBack 
-          title={this.props.title}
+        <>
+          <CardBack
+            title={this.props.title}
           />
-          <CardFront 
-          cover={this.props.cover} 
-          content={this.props.content}
+          <CardFront
+            cover={this.props.cover}
+            content={this.props.content}
           />
-        </div>
+        </>
       )
     }
   }
-  
+
   // Don't forget your default props!
   Card.defaultProps = {
     title: "Unknown",

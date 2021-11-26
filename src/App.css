@@ -24,6 +24,10 @@
   justify-content: center;
 }
 
+/* .card:hover {
+  transform: scale(1.08);
+} */
+
 /* .front {
   transition-duration:1s;
   backface-visibility: hidden;
@@ -42,8 +46,8 @@
   position:relative;
   background:var(--transparency);
   text-align:center;
-  font:bold 12px times, serif;
-  color:var(--text);
+  font:bold 14px times, serif;
+  color: black;
   font-variant:small-caps;
   letter-spacing:1px;
   transition-duration:1s;
@@ -56,11 +60,19 @@
 }
 
 .search {
-  width:"20rem"; 
-  background:"#F2F1F9"; 
-  border:"none"; 
-  border-radius:"5rem"; 
+  width:"20rem";
+  background:"#F2F1F9";
+  border:"none";
+  border-radius:"5rem";
   padding:"0.5rem"
+}
+
+.front {
+  transition: transform 450ms;
+}
+
+.front:hover {
+  transform: scale(1.08);
 }
 
 @media (prefers-reduced-motion: no-preference) {
