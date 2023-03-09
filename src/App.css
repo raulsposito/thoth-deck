@@ -39,16 +39,16 @@
 } */
 
 #back {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  align-items:center;
-  justify-content:center;
-  position:relative;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   background:var(--transparency);
-  text-align:center;
-  font:bold 14px times, serif;
+  text-align: center;
+  font: bold 14px times, serif;
   color: black;
-  font-variant:small-caps;
+  font-variant: small-caps;
   letter-spacing:1px;
   transition-duration:1s;
   opacity: 0;
@@ -60,7 +60,7 @@
 }
 
 .search {
-  width:"20rem";
+  width: "20rem";
   background:"#F2F1F9";
   border:"none";
   border-radius:"5rem";

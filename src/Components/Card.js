@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CardFront from './CardFront.js';
 import CardBack from './CardBack.js';
 
-export default class Card extends Component {
+const Card = (props) => {
 
-    render() {
-      return (
-        <div>
-          <CardBack
-            title={this.props.title}
-          />
-          <CardFront
-            cover={this.props.cover}
-            content={this.props.content}
-          />
-        </div>
-      )
-    }
-  }
+  return (
+    <div>
+      <CardBack
+        title={props.title}
+      />
+      <CardFront
+        cover={props.cover}
+        content={props.content}
+      />
+    </div>
+  )
+}
 
-  // Don't forget your default props!
-  Card.defaultProps = {
-    title: "Unknown",
-    cover: 'default'
-  };
+Card.defaultProps = {
+  title: "Unknown",
+  cover: 'default'
+};
+
+export default Card;

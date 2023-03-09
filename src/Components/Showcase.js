@@ -1,33 +1,28 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import CardContainer from './CardContainer';
 import data from './data'
 
-class Showcase extends Component {
+const Showcase = () => {
+  const [searchTerm, setSearchTerm] = useState('');
 
-  state = {
-    searchTerm: ''
+  const editSearchTerm = (e) => {
+    setSearchTerm(e.target.value )
   }
+  
+  const filteredCards = data.filter(d => d.title.toLowerCase().includes(searchTerm.toLowerCase()))
 
-  editSearchTerm = (e) => {
-    this.setState({ searchTerm: e.target.value })
-  }
+  return (
+    <div>
+      <input className="search" type='search' value={searchTerm} onChange={editSearchTerm} placeholder={"Search Card"}/>
+      <br/>
 
-	render() {
-    const filteredCards = data.filter(d => d.title.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
+      <h2>This is your search:</h2>
+      <p>Hover to discover more</p>
 
-    return (
-      <div>
-        <input className="search" type='search' value={this.state.searchTerm} onChange={this.editSearchTerm} placeholder={"Search Card"}/>
-        <br/>
+      <CardContainer deck={filteredCards} />
 
-        <h2>This is your search:</h2>
-        <p>Hover to discover more</p>
-
-        <CardContainer deck={filteredCards} />
-
-      </div>
-    )
-	}
+    </div>
+  )
 }
 
 export default Showcase;
